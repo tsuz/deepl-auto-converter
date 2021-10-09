@@ -16,5 +16,18 @@
         "48": "icon-48.png",
         "128": "icon-128.png"
     },
-    "permissions": ["tabs", "activeTab", "notifications", "http://*/", "https://*/"]
+    "permissions": [
+        "tabs", 
+        "activeTab", 
+        "notifications",
+        "http://*/",
+        "https://*/",
+        "contextMenus"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/contentScript.js"]
+        }
+    ]
 }
