@@ -1,94 +1,27 @@
-[![CircleCI](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main.svg?style=svg)](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main)
+[![CircleCI](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main.svg?style=svg&circle-token=e9f3323b59b69df67a8688e9032124d373b1d84e)](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main)
 
 [![codecov](https://codecov.io/gh/tsuz/deepl-auto-converter/branch/main/graph/badge.svg?token=I5WJUlKO6O)](https://codecov.io/gh/tsuz/deepl-auto-converter)
 
-:desktop_computer: A Web Extension starter kit built with React, TypeScript, SCSS, Storybook, EsLint, Prettier, Jest, Bootstrap,x &amp; Webpack. Compatible with Google Chrome, Mozilla Firefox, and Brave.
+## How to use
 
-![Example Extension Popup](https://i.imgur.com/Wp37usG.png "Example Extension Popup")
+Refer to [How to use guide][1]([使用方法][2]).
 
-**Getting Started**
+## Terms of Service
 
-Run the following commands to install dependencies and start developing
+Refer to [Terms of Service][4].
 
-```
-yarn install
-yarn dev
-```
+## Privacy Policy
 
-**Scripts**
+Refer to [Privacy Policy][5].
 
--   `yarn dev` - run `webpack` in `watch` mode
--   `yarn storybook` - runs the Storybook server
--   `yarn build` - builds the production-ready unpacked extension
--   `yarn test -u` - runs Jest + updates test snapshots
--   `yarn lint` - runs EsLint
--   `yarn prettify` - runs Prettier
+## Contributing
 
-<details>
-  <summary>Loading the extension in Google Chrome</summary>
+Refer to [Contributing][3].
 
-In [Google Chrome](https://www.google.com/chrome/), open up [chrome://extensions](chrome://extensions) in a new tab. Make sure the `Developer Mode` checkbox in the upper-right corner is turned on. Click `Load unpacked` and select the `dist` directory in this repository - your extension should now be loaded.
 
-![Installed Extension in Google Chrome](https://i.imgur.com/ORuHbDR.png "Installed Extension in Google Chrome")
+[1]: docs/HOW_TO_USE.en.md
+[2]: docs/HOW_TO_USE.ja.md
+[3]: docs/CONTRIBUTING.md
+[4]: docs/TERMS_OF_SERVICE.md
+[5]: docs/PRIVACY_POLICY.md
 
-</details>
-
-<details>
-  <summary>Loading the extension in Brave</summary>
-
-In [Brave](https://brave.com/), open up [brave://extensions](brave://extensions) in a new tab. Make sure the `Developer Mode` checkbox in the upper-right corner is turned on. Click `Load unpacked` and select the `dist` directory in this repository - your extension should now be loaded.
-
-![Installed Extension in Brave](https://i.imgur.com/z8lW02m.png "Installed Extension in Brave")
-
-</details>
-
-<details>
-  <summary>Loading the extension in Mozilla Firefox</summary>
-
-In [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), open up the [about:debugging](about:debugging) page in a new tab. Click the `Load Temporary Add-on...` button and select the `manfiest.json` from the `dist` directory in this repository - your extension should now be loaded.
-
-![Installed Extension in Mozilla Firefox](https://i.imgur.com/gO2Lrb5.png "Installed Extension in Mozilla Firefox")
-
-</details>
-
-**Notes**
-
--   Includes ESLint configured to work with TypeScript and Prettier.
-
--   Includes tests with Jest - note that the `babel.config.js` and associated dependencies are only necessary for Jest to work with TypeScript.
-
--   Recommended to use `Visual Studio Code` with the `Format on Save` setting turned on.
-
--   Example icons courtesy of [FontAwesome](https://fontawesome.com).
-
--   [Microsoft Edge]() is not currently supported.
-
--   Includes Storybook configured to work with React + TypeScript. Note that it maintains its own `webpack.config.js` and `tsconfig.json` files. See example story in `src/components/hello/__tests__/hello.stories.tsx`
-
--   Includes a custom mock for the [webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts) package in `src/__mocks__`. This allows you to mock any browser APIs used by your extension so you can develop your components inside Storybook.
-
-![Example Storybook Setup](https://i.imgur.com/ER0WHtY.png "Example Storybook Setup")
-
-**Built with**
-
--   [React](https://reactjs.org)
--   [TypeScript](https://www.typescriptlang.org/)
--   [Storybook](https://storybook.js.org/)
--   [Jest](https://jestjs.io)
--   [Eslint](https://eslint.org/)
--   [Prettier](https://prettier.io/)
--   [Webpack](https://webpack.js.org/)
--   [Babel](https://babeljs.io/)
--   [Bootstrap](https://getbootstrap.com)
--   [SCSS](https://sass-lang.com/)
--   [webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts)
-
-**Misc. References**
-
--   [Chrome Extension Developer Guide](https://developer.chrome.com/extensions/devguide)
--   [Firefox Extension Developer Guide](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension)
--   [Eslint + Prettier + Typescript Guide](https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb)
-
-**Notable forks**
-
--   [capaj](https://github.com/capaj/react-typescript-web-extension-starter) - Chakra-ui instead of Bootstrap+SCSS, Storybook removed
