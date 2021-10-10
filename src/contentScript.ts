@@ -1,7 +1,5 @@
-//// contentScript.js ////
 
-import { AppStorage } from "./types/storage"
-import { getStorage } from "./util/getStorage";
+import { getStorage } from "./util/storage";
 
 interface DeepLResponse {
     translations: DeepLTranslation[]

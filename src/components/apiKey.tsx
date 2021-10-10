@@ -1,6 +1,5 @@
-import { AppStorage } from '@src/types/storage';
-import { getStorage, setStorage } from '@src/util/getStorage';
-import React, { useState, useEffect, ChangeEventHandler, ChangeEvent } from 'react'
+import { getStorage, setStorage } from '@src/util/storage';
+import React, { useState, useEffect, ChangeEvent } from 'react'
 
 export const APIKeyInput = () => {
 

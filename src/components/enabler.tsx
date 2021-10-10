@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import BootstrapSwitchButton from 'bootstrap-switch-button-react'
-import { AppStorage } from '@src/types/storage'
-import { getStorage, setStorage } from '@src/util/getStorage'
+import { getStorage, setStorage } from '@src/util/storage'
 
 export const Enabler = () => {
 

@@ -7,7 +7,7 @@
         "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
-        "rootDir": "./src",
+        "rootDir": ".",
         "outDir": "dist/js",
         "strict": true,
         "sourceMap": true,
@@ -16,5 +16,12 @@
         "lib": ["es2015", "dom"],
         "experimentalDecorators": true,
         "allowSyntheticDefaultImports": true
-    }
+    },
+    "src": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "src/**/*.test.ts",
+        "src/dev/*",
+    ]
 }
