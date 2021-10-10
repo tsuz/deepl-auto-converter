@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { Hello } from "@src/components/title";
 import { APIKeyInput } from "@src/components/apiKey";
+import "./../scss/app.scss";
 import "./../scss/popup.scss";
 import { Enabler } from "@src/components/enabler";
 

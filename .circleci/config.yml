@@ -39,7 +39,6 @@ jobs:
           file: './coverage/clover.xml'
           token: $CODECOV_TOKEN
 
-      - run: yarn test-server
 workflows:
   build-workflow:
     jobs:
