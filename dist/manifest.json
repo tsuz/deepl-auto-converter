@@ -22,7 +22,8 @@
         "notifications",
         "http://*/",
         "https://*/",
-        "contextMenus"
+        "contextMenus",
+        "storage"
     ],
     "content_scripts": [
         {
