@@ -18,10 +18,14 @@ Refer to [Privacy Policy][5].
 
 Refer to [Contributing][3].
 
+## Support
+
+For support, please create [a bug ticket or feature request here][6].
+
 
 [1]: docs/HOW_TO_USE.en.md
 [2]: docs/HOW_TO_USE.ja.md
 [3]: docs/CONTRIBUTING.md
 [4]: docs/TERMS_OF_SERVICE.md
 [5]: docs/PRIVACY_POLICY.md
-
+[6]: https://github.com/tsuz/deepl-auto-converter/issues/new/choose
