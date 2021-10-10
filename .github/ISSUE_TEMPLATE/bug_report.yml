@@ -15,7 +15,6 @@ body:
       label: Expected 期待値
       description: What did you expect to happen? どの様な仕様もしくは動作を期待していましたか。
       placeholder: I expected X to show after Y
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -24,7 +23,6 @@ body:
       label: Observed 現象
       description: What did you observe? どの様な動作を見られましたか。
       placeholder: I didn't see X to show after Y
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -37,7 +35,6 @@ body:
         2. I clicked on X
         3. I typed on Y
         4. It did not do Z
-      value: ""
     validations:
       required: true
   - type: dropdown
