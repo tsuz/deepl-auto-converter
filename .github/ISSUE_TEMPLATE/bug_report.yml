@@ -1,0 +1,52 @@
+name: Bug Report (バグ報告)
+description: File a bug report (不具合を報告する)
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - tsuz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected 期待値
+      description: What did you expect to happen? どの様な仕様もしくは動作を期待していましたか。
+      placeholder: I expected X to show after Y
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed 現象
+      description: What did you observe? どの様な動作を見られましたか。
+      placeholder: I didn't see X to show after Y
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: reproduceStep
+    attributes:
+      label: Reproduce Step 再現方法
+      description: Provide in clear steps how you got to this state. 具体的にどのアイテムに対しどの動作を行なったか手順を教えてください。
+      placeholder: |
+        1. I opened the extension via the popup on the top right of the browser. 
+        2. I clicked on X
+        3. I typed on Y
+        4. It did not do Z
+      value: ""
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Repeatability / 再現性
+      description: Is it one time issue or is it repeatable? 不具合が起きたのは一度のみですか。それとも毎回再現できますあ？
+      options:
+        - One-time / 一度だけ
+        - Repeatable / 毎回
+    validations:
+      required: true
