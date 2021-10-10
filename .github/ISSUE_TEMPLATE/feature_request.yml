@@ -1,0 +1,45 @@
+name: Feature Request (機能の追加)
+description: Submit a feature request (機能追加のリクエストを作る)
+title: "[FR]: "
+labels: ["enhancement"]
+assignees:
+  - tsuz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: feature
+    attributes:
+      label: About the feature
+      description: Describe the feature. 機能を説明してください。
+      placeholder: I want to see X to Z.
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use Case ユースケース
+      description: In what situations do you need this feature? どの様なシチュエーションでこの機能が必要ですか。
+      placeholder: When I'm using mobile phone.
+      value: ""
+    validations:
+      required: true
+  - type: checkboxes
+    id: cat-preferences
+    attributes:
+      label: Is there a workaround? 今はどのように回避していますか。
+      description: You may select more than one.
+      options:
+        - label: There is no workaround. 回避できないので困っている。
+        - label: There is a workaround. 回避策が存在する。
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 
+      description: Describe the workaround if there are any. 回避策があれば説明してください。
+      value: ""
+    validations:
+      required: false
