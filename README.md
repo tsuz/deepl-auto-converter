@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main.svg?style=svg)](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main)
+[![CircleCI](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main.svg?style=svg&circle-token=e9f3323b59b69df67a8688e9032124d373b1d84e)](https://circleci.com/gh/tsuz/deepl-auto-converter/tree/main)
 
 [![codecov](https://codecov.io/gh/tsuz/deepl-auto-converter/branch/main/graph/badge.svg?token=I5WJUlKO6O)](https://codecov.io/gh/tsuz/deepl-auto-converter)
 
