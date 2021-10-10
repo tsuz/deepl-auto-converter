@@ -39,6 +39,9 @@ jobs:
           file: './coverage/clover.xml'
           token: $CODECOV_TOKEN
 
+      # run dependency vulnerability test
+      - run: yarn audit --audit-level=high
+
 workflows:
   build-workflow:
     jobs:
